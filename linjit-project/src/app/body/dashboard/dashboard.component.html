@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row">
+    <app-dashboard-tile *ngFor="let tile of tilesData" [title]="tile.title" [description]="tile.description">
+    </app-dashboard-tile>
+  </div>
+  <div class="row">
+    <app-dashboard-table [tableRows]="tableData"></app-dashboard-table>
+  </div>
+</div>

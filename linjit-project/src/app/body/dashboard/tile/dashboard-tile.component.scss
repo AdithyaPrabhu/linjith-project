@@ -1,0 +1,29 @@
+$color_green: #00A600;
+
+.tile {  
+    width: 100%;
+      display: inline-block;
+      box-sizing: border-box;
+      background: #fff;		
+      padding: 20px;
+      margin-bottom: 10px;
+     
+    
+    .title {
+          margin-top: 0px;
+      }
+    
+    &.green {
+      color: #fff;
+    }
+    
+
+    &.green {
+      background: $color_green;
+  
+          &:hover {
+              background: darken($color_green, 10%);
+          }		
+    }
+    
+  }
