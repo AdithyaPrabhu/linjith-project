@@ -6,7 +6,7 @@ export class DashboardService {
 
     constructor() { }
 
-    getTileDate(): Tile[] {
+    getTileData(): Tile[] {
         return [
             {
                 'title': 'TITLE 1',
