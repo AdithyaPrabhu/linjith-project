@@ -41,7 +41,7 @@ button:disabled{
     border: 0;
 }
 .ui-fileupload-files span.ui-button-icon-left.ui-clickable.pi.pi-times:before {
-    content: "cancel";
+    content: "Cancel";
 }
 .ui-fileupload-choose .ui-button-text,.ui-fileupload-files .ui-button-text{
     display: none !important;
