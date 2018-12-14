@@ -4,7 +4,7 @@ export interface CourseDetails {
     category: string;
     summary: string;
     longDescription: string;
-    instructors: string[];
+    instructors: Instructor[];
     rating: 1 | 2 | 3 | 4 | 5;
     price: number;
     difficulty: string;
@@ -12,10 +12,21 @@ export interface CourseDetails {
     imageUrl: string;
     requirements: string[];
     featuredReviews: Review[];
+    courseContent: CourseTopic[];
 }
 
 export interface Review {
     reviewBy: string;
     rating: 1 | 2 | 3 | 4 | 5;
     comment: string;
+}
+
+export interface Instructor {
+    instructorName: string;
+    instructorId: string;
+}
+
+export interface CourseTopic {
+    topicHeading: string;
+    subtopics: string[];
 }
