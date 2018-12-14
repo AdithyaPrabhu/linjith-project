@@ -9,16 +9,70 @@ export class DashboardService {
     getTileData(): Tile[] {
         return [
             {
-                'title': 'TITLE 1',
-                'description': 'DESCRIPTION 1'
+                'title': 'Introduction to Native Cloud Application Architecture',
+                'instructor': 'Linjith Kunnon',
+                'rating': 3,
+                'price': 3000,
+                'summary': 'Build and deploy an app from the scratch completely on AWS',
+                'category': 'Architecture',
+                'longDescription': 'LOREM IPSUM',
+                'difficulty': 'Basic',
+                'hours': 20
             },
             {
-                'title': 'TITLE 2',
-                'description': 'DESCRIPTION 2'
+                'title': 'JavaScript Design Patterns',
+                'instructor': 'MadhuBala',
+                'rating': 3,
+                'price': 5000,
+                'summary': 'Write better code by learning about the standard design patterns in JS',
+                'category': 'Programming',
+                'longDescription': 'LOREM IPSUM',
+                'difficulty': 'Basic',
+                'hours': 20
             },
             {
-                'title': 'TITLE 3',
-                'description': 'DESCRIPTION 3'
+                'title': 'Web Assembly',
+                'instructor': 'Adithya Prabhu',
+                'rating': 3,
+                'price': 8000,
+                'summary': 'Introductory course to web assembly',
+                'category': 'Languages',
+                'longDescription': 'LOREM IPSUM',
+                'difficulty': 'Basic',
+                'hours': 20
+            },
+            {
+                'title': 'Reactive Programming : A fad or the future',
+                'instructor': 'Linjith Kunnon',
+                'rating': 4,
+                'price': 9000,
+                'summary': 'Why is it so cool among devs? Will it stick?',
+                'category': 'Languages',
+                'longDescription': 'LOREM IPSUM',
+                'difficulty': 'Basic',
+                'hours': 20
+            },
+            {
+                'title': 'Learn GoLang in 30 hours',
+                'instructor': 'MadhuBala',
+                'rating': 3,
+                'price': 5000,
+                'summary': 'Go from zero to hero in Google\'s GoLang in 30 hours',
+                'category': 'Languages',
+                'longDescription': 'LOREM IPSUM',
+                'difficulty': 'Basic',
+                'hours': 20
+            },
+            {
+                'title': 'AI/ML for a newbie',
+                'instructor': 'Adithya Prabhu',
+                'rating': 3,
+                'price': 2000,
+                'summary': 'Introductory course to AI and ML using R',
+                'category': 'AI-ML',
+                'longDescription': 'LOREM IPSUM',
+                'difficulty': 'Basic',
+                'hours': 20
             }
         ];
     }
