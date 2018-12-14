@@ -13,6 +13,7 @@ import { FileUploadModule, FileUpload } from 'primeng/components/fileupload/file
 import { BodyComponent } from './body/body.component';
 import { CourseDetailsComponent } from 'src/app/body/course-details/course-details.component';
 import { AppRoutingModule } from './app-routing.module';
+import { CourseDetailsService } from 'src/app/body/course-details/course-details.service';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { AppRoutingModule } from './app-routing.module';
     AppRoutingModule
   ],
   providers: [
-    DashboardService
+    DashboardService,
+    CourseDetailsService
   ],
   bootstrap: [AppComponent]
 })
