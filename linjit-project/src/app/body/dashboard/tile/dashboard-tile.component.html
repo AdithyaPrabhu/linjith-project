@@ -17,11 +17,6 @@
                                 <span *ngIf="checked" class="fa fa-star checked"></span>    
                                 <span *ngIf="!checked" class="fa fa-star"></span>    
                         </span>
-                        <!-- <span  class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span> -->
                         {{tileData.rating}}</p>
                     <p class="price text-right">&#8377;{{tileData.price}}</p>
                 </div>
@@ -29,7 +24,11 @@
         </a>
         <div class="popup-wrapper">
             <div class="arrow-left"></div>
-            <p>{{tileData.longDescription}}</p>
+            <p class="title">{{tileData.title}}</p>
+            <p>Category:{{tileData.category}}</p>
+            <p>Difficulty Level:{{tileData.difficulty}}</p>
+            <p>Time Required:{{tileData.hours}}</p>
+            <p  class="summary">{{tileData.longDescription}}</p>
             <div class="btn-wrapper text-center">
                 <button class="btn btn-primary">Add to cart</button>
                 <i class="fa fa-heart-o"></i>

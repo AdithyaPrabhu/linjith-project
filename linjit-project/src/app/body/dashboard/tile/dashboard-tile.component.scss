@@ -41,6 +41,7 @@
 }
 .popup-wrapper{
   display: none;
+  overflow: auto;
   position: absolute;
   box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
   height: 330px;
@@ -146,8 +147,4 @@ img{
 }
 .content-wrapper {
   padding: 10px 15px;
-}
-.img-div {
-  min-height: 120px;
-  background: #fbe4db;
 }
