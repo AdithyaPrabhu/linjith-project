@@ -15,4 +15,12 @@ export class DashboardTileComponent implements OnInit {
   ngOnInit() {
   }
 
+  populateStarRating() {
+    const starRating = [false, false, false, false, false];
+    for (let i = 0; i < this.tileData.rating; i++) {
+      starRating[i] = true;
+    }
+    return starRating;
+  }
+
 }

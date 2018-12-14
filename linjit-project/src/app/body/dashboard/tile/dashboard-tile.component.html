@@ -9,14 +9,18 @@
                     </div>
                     <p class="summary">{{tileData.summary}}</p>
                     <p>
-                        <span class="instructor" *ngFor="let instructor of tileData.instructors">{{instructor}}</span>
+                        <span class="instructor" *ngFor="let instructor of tileData.instructors">{{instructor+' - '}}</span>
                     </p>
                     <p class="rating">
-                        <span  class="fa fa-star checked"></span>
+                        <span *ngFor="let checked of populateStarRating()">
+                                <span *ngIf="checked" class="fa fa-star checked"></span>    
+                                <span *ngIf="!checked" class="fa fa-star"></span>    
+                        </span>
+                        <!-- <span  class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span> -->
                         {{tileData.rating}}</p>
                     <p class="price text-right">&#8377;{{tileData.price}}</p>
                 </div>
