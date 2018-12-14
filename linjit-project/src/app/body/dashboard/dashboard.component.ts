@@ -20,4 +20,8 @@ export class DashboardComponent implements OnInit {
     this.tableData = this.dashboardService.getTableData();
   }
 
+  getCourseDescriptionLink(tile: Tile): string {
+    return '/course/' + tile.courseId;
+  }
+
 }

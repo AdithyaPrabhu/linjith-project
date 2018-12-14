@@ -3,7 +3,7 @@
     <a class="tile">
         <h3 class="title">{{tileData.title}}</h3>
         <p>{{tileData.summary}}</p>
-        <p>{{tileData.instructor}}</p>
+        <p *ngFor="let instructor of tileData.instructors">{{instructor}}</p>
         <p>{{tileData.rating}}</p>
         <p>{{tileData.price}}</p>
         

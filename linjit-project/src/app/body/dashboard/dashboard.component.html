@@ -1,7 +1,7 @@
 <div>
   <div class="menu-bar">
     <div class="container">
-      <app-dashboard-tile *ngFor="let tile of tilesData" [tileData]="tile" class="menu-items">
+      <app-dashboard-tile *ngFor="let tile of tilesData" [tileData]="tile" class="menu-items" [routerLink]="getCourseDescriptionLink(tile)">
       </app-dashboard-tile>
     </div>
   </div>

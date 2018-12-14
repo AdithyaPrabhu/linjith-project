@@ -11,6 +11,9 @@ import { DashboardService } from 'src/app/body/dashboard/dashboard.service';
 import { FileUploadComponent } from './body/file-upload/file-upload.component';
 import { FileUploadModule, FileUpload } from 'primeng/components/fileupload/fileupload';
 import { BodyComponent } from './body/body.component';
+import { CourseDetailsComponent } from 'src/app/body/course-details/course-details.component';
+import { AppRoutingModule } from './app-routing.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,11 +22,13 @@ import { BodyComponent } from './body/body.component';
     DashboardTableComponent,
     HeaderComponent,
     FileUploadComponent,
-    BodyComponent
+    BodyComponent,
+    CourseDetailsComponent
   ],
   imports: [
     BrowserModule,
-    FileUploadModule
+    FileUploadModule,
+    AppRoutingModule
   ],
   providers: [
     DashboardService

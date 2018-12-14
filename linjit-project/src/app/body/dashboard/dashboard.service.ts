@@ -10,69 +10,81 @@ export class DashboardService {
         return [
             {
                 'title': 'Introduction to Native Cloud Application Architecture',
-                'instructor': 'Linjith Kunnon',
+                'instructors': ['Linjith Kunnon', 'Adithya Prabhu'],
                 'rating': 3,
                 'price': 3000,
                 'summary': 'Build and deploy an app from the scratch completely on AWS',
                 'category': 'Architecture',
                 'longDescription': 'LOREM IPSUM',
                 'difficulty': 'Basic',
-                'hours': 20
+                'hours': 20,
+                'courseId': '1',
+                'imageUrl': 'https://container-solutions.com/content/uploads/2017/05/cloud.png'
             },
             {
                 'title': 'JavaScript Design Patterns',
-                'instructor': 'MadhuBala',
-                'rating': 3,
+                'instructors': ['MadhuBala'],
+                'rating': 5,
                 'price': 5000,
                 'summary': 'Write better code by learning about the standard design patterns in JS',
                 'category': 'Programming',
                 'longDescription': 'LOREM IPSUM',
-                'difficulty': 'Basic',
-                'hours': 20
+                'difficulty': 'Advanced',
+                'hours': 19,
+                'courseId': '2',
+                'imageUrl': 'https://cdn-images-1.medium.com/max/1600/1*HP8l7LMMt7Sh5UoO1T-yLQ.png'
             },
             {
                 'title': 'Web Assembly',
-                'instructor': 'Adithya Prabhu',
+                'instructors': ['Adithya Prabhu'],
                 'rating': 3,
                 'price': 8000,
                 'summary': 'Introductory course to web assembly',
                 'category': 'Languages',
                 'longDescription': 'LOREM IPSUM',
                 'difficulty': 'Basic',
-                'hours': 20
+                'hours': 29,
+                'courseId': '3',
+                'imageUrl': 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Web_Assembly_Logo.svg/220px-Web_Assembly_Logo.svg.png'
             },
             {
                 'title': 'Reactive Programming : A fad or the future',
-                'instructor': 'Linjith Kunnon',
+                'instructors': ['Linjith Kunnon', 'MadhuBala'],
                 'rating': 4,
                 'price': 9000,
                 'summary': 'Why is it so cool among devs? Will it stick?',
                 'category': 'Languages',
                 'longDescription': 'LOREM IPSUM',
-                'difficulty': 'Basic',
-                'hours': 20
+                'difficulty': 'Advanced',
+                'hours': 13,
+                'courseId': '4',
+                'imageUrl': 'https://cdn-images-1.medium.com/max/1000/1*NkhhBPaaZXD9NSYC_xQ0LA.png'
             },
             {
                 'title': 'Learn GoLang in 30 hours',
-                'instructor': 'MadhuBala',
+                'instructors': ['MadhuBala', 'Adithya Prabhu'],
                 'rating': 3,
                 'price': 5000,
                 'summary': 'Go from zero to hero in Google\'s GoLang in 30 hours',
                 'category': 'Languages',
                 'longDescription': 'LOREM IPSUM',
-                'difficulty': 'Basic',
-                'hours': 20
+                'difficulty': 'Intermediate',
+                'hours': 10,
+                'courseId': '5',
+                'imageUrl': 'https://cdn-images-1.medium.com/max/1600/1*yh90bW8jL4f8pOTZTvbzqw.png'
             },
             {
-                'title': 'AI/ML for a newbie',
-                'instructor': 'Adithya Prabhu',
+                'title': 'Intro to AI/ML',
+                'instructors': ['Adithya Prabhu', 'Linjith Kunnon', 'MadhuBala'],
                 'rating': 3,
                 'price': 2000,
                 'summary': 'Introductory course to AI and ML using R',
                 'category': 'AI-ML',
                 'longDescription': 'LOREM IPSUM',
-                'difficulty': 'Basic',
-                'hours': 20
+                'difficulty': 'Intermediate',
+                'hours': 23,
+                'courseId': '6',
+                'imageUrl': 'http://constems-ai.com/wp-content/uploads/2017/07/AI-and-ML-explained.jpg'
             }
         ];
     }

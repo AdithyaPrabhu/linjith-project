@@ -1,5 +1,5 @@
-export interface Tile {
-    courseId: string;
+export interface CourseDetails {
+    id: string;
     title: string;
     category: string;
     summary: string;
@@ -10,12 +10,7 @@ export interface Tile {
     difficulty: string;
     hours: number;
     imageUrl: string;
-}
+    requirements: string[];
+    featuredReviews: string[];
 
-export interface TableRow {
-    country: string;
-    language: string;
-    population: string;
-    medianAge: string;
-    area: string;
 }
