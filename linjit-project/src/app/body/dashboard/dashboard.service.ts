@@ -15,7 +15,7 @@ export class DashboardService {
                 'price': 3000,
                 'summary': 'Build and deploy an app from the scratch completely on AWS',
                 'category': 'Architecture',
-                'longDescription': 'LOREM IPSUM',
+                'longDescription': 'LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM ',
                 'difficulty': 'Basic',
                 'hours': 20,
                 'courseId': '1',

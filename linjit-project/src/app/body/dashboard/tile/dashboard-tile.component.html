@@ -1,11 +1,34 @@
-
-<div class="col-sm-25">
-    <a class="tile">
-        <h3 class="title">{{tileData.title}}</h3>
-        <p>{{tileData.summary}}</p>
-        <p *ngFor="let instructor of tileData.instructors">{{instructor}}</p>
-        <p>{{tileData.rating}}</p>
-        <p>{{tileData.price}}</p>
-        
-    </a>
+<div class="main-container">
+    <div class="content-box">
+        <a class="tile">
+            <div class="wrapper">
+                <img src="{{tileData.imageUrl}}" alt="img" />
+                <div class="content-wrapper">
+                    <div class="title-wrap">
+                        <p class="title">{{tileData.title}}</p>
+                    </div>
+                    <p class="summary">{{tileData.summary}}</p>
+                    <p>
+                        <span class="instructor" *ngFor="let instructor of tileData.instructors">{{instructor}}</span>
+                    </p>
+                    <p class="rating">
+                        <span  class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        {{tileData.rating}}</p>
+                    <p class="price text-right">&#8377;{{tileData.price}}</p>
+                </div>
+            </div>
+        </a>
+        <div class="popup-wrapper">
+                <div class="arrow-left"></div>
+                <p>{{tileData.longDescription}}</p>
+                <div class="btn-wrapper text-center">
+                    <button class="btn btn-primary">Add to cart</button>
+                    <i class="fa fa-heart-o"></i>
+                </div>
+            </div>
+    </div>
 </div>
