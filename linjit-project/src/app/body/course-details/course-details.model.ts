@@ -13,6 +13,7 @@ export interface CourseDetails {
     requirements: string[];
     featuredReviews: Review[];
     courseContent: CourseTopic[];
+    totalSubscribers: number;
 }
 
 export interface Review {

@@ -33,7 +33,8 @@ export class CourseDetailsService {
                 { 'topicHeading': 'Introduction', 'subtopics': ['what is meaning of native cloud', 'why native cloud'] },
                 { 'topicHeading': 'Storage', 'subtopics': ['S3', 'Glacier'] },
                 { 'topicHeading': 'Deployment', 'subtopics': ['Docker', 'Swarm'] }
-            ]
+            ],
+            'totalSubscribers': 500
         };
     }
 }
