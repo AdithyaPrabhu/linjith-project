@@ -14,6 +14,8 @@ import { BodyComponent } from './body/body.component';
 import { CourseDetailsComponent } from 'src/app/body/course-details/course-details.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CourseDetailsService } from 'src/app/body/course-details/course-details.service';
+import { InstructorProfileComponent } from './body/instructor-profile/instructor-profile.component';
+import { InstructorProfileService } from 'src/app/body/instructor-profile/instructor-profile.service';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { CourseDetailsService } from 'src/app/body/course-details/course-details
     HeaderComponent,
     FileUploadComponent,
     BodyComponent,
-    CourseDetailsComponent
+    CourseDetailsComponent,
+    InstructorProfileComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +36,8 @@ import { CourseDetailsService } from 'src/app/body/course-details/course-details
   ],
   providers: [
     DashboardService,
-    CourseDetailsService
+    CourseDetailsService,
+    InstructorProfileService
   ],
   bootstrap: [AppComponent]
 })

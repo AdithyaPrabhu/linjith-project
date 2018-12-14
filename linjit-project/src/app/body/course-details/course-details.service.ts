@@ -10,8 +10,8 @@ export class CourseDetailsService {
         return {
             'title': 'Introduction to Native Cloud Application Architecture',
             'instructors': [
-                { 'instructorName': 'Linjith Kunnon', 'instructorId': 'i1' },
-                { 'instructorName': 'Adithya Prabhu', 'instructorId': 'i2' }
+                { 'instructorName': 'Linjith Kunnon', 'instructorId': '1' },
+                { 'instructorName': 'Adithya Prabhu', 'instructorId': '2' }
             ],
             'rating': 3,
             'price': 3000,
